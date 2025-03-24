@@ -20,19 +20,14 @@ Este proyecto es un bot de intercambio de tokens en la blockchain de **Solana** 
 ## 🚀 **Cómo usarlo**  
 1. Clona el repositorio:  
    ```bash
-   git clone https://github.com/tu-usuario/jupiter-swap-bot.git
-   cd jupiter-swap-bot
+   git clone https://github.com/tu-usuario/jupiter-swap-bot.git](https://github.com/Misterclon06/Swap-Bot---Solana.git
+   cd swap-bot
    ```
 2. Instala las dependencias:  
    ```bash
    npm install
    ```
 3. Configura tu conexión a Solana y tu billetera.  
-4. Ejecuta la función `getBuyTxWithJupiter()` con los parámetros adecuados.  
 
 ## ⚠️ **Advertencia**  
 Este código interactúa con la red principal de Solana. Usa una **billetera de prueba** antes de ejecutar transacciones con fondos reales.  
-
----
-
-Si quieres agregar más detalles, dime qué más te gustaría incluir. 🚀
