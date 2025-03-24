@@ -1,0 +1,76 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Editor y sistema operativo
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Archivos de entorno (credenciales y configuraciones locales)
+.env
+.env.local
+.env.*.local
+
+# Logs y depuración
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+debug.log
+error.log
+*.pid
+*.seed
+*.state
+
+# Caché de herramientas
+.cache/
+.npm/
+.yarn/
+.pnpm-store/
+.eslintcache
+
+# Directorios de compilación (para TypeScript, Babel, etc.)
+dist/
+build/
+out/
+
+# Cobertura de pruebas
+coverage/
+.nyc_output/
+
+# Dependencias globales de TypeScript
+node_modules/.cache
+tsconfig.tsbuildinfo
+
+# Archivos de producción en servidores
+/.pm2/
+*.gz
+*.zip
+*.tar
+
+# Archivos de testing
+jest/
+*.test.js
+*.spec.js
+cypress/videos/
+cypress/screenshots/
+
+# Next.js / Nuxt.js (si es aplicable)
+.next/
+.nuxt/
+out/
+
+# Svelte / Vue (si es aplicable)
+.svelte-kit/
+.vite/
+vite.config.ts
