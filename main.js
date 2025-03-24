@@ -6,7 +6,7 @@ import { NATIVE_MINT } from '@solana/spl-token';
 
 const SOL = NATIVE_MINT.toBase58();
 const MONTO = 0.0001 * LAMPORTS_PER_SOL;
-const SLIPPAGE = 1 * 100; // 60% de slippage;
+const SLIPPAGE = 1 * 100;
 
 async function loadLib() {
     const { compra_automata, venta_automata } = await import('./lib.js');
